@@ -7,7 +7,7 @@ function setTitle(){
 }
 
 while (true) {
-    setTimeout(setTitle,1000*0.5)
+    setTimeout(setTitle,1000*3)
     current_frame++
 
     if (current_frame > frames.length){

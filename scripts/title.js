@@ -8,4 +8,4 @@ const setTitle = async () => {
     await sleep(.5);
 }
 
-setInterval(function () {setTitle; if (current_frame > 7){current_frame = 0;}}, 500);
+setInterval(setTitle(), 500);
